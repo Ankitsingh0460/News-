@@ -6,6 +6,7 @@
 
 body {
   position: relative;
+  background-color: #138065;
 }
 /*Global Css*/
 .obj-width {
@@ -31,7 +32,7 @@ nav {
   font-size: 2.2rem;
   margin-left: 20px;
 }
-#input {
+#search-input {
   font-size: 18px;
   max-width: 400px;
   border-radius: 5px;
@@ -40,7 +41,7 @@ nav {
   color: #333;
 }
 
-.button-section {
+#search-button {
   border-radius: 5px;
   border: none;
   padding: 10px 20px;
@@ -100,4 +101,17 @@ nav {
   #input {
     padding: 10px 20px;
   }
+}
+
+footer {
+  background-color: #141414;
+  height: 50px;
+  display: flex;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+.para {
+  margin-top: 10px;
+  font-size: 20px;
 }
