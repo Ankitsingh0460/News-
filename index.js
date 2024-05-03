@@ -44,7 +44,7 @@ async function fetchNewsQuery(query) {
   }
 }
 
-
+//function
 
 function displayBlogs(articles) {
   blogContainer.innerHTML = "";
